@@ -6,7 +6,9 @@
     "build": "next build && next export",
     "start": "next start"
   },
-  "dependencies": {
+  "dependencies": { 
+    "@types/node": "^20.11.19",
+"@types/react": "^18.2.44"
     "autoprefixer": "^10.4.14",
     "next": "13.4.12",
     "postcss": "^8.4.21",
